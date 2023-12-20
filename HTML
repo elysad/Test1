@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <style>
+        body {
+            background-color: #ffcccc; /* Set the background color to pink (#ffcccc) */
+            text-align: center; /* Center-align text and elements within the body */
+        }
+        #gif {
+            max-width: 100%; /* Make sure the gif doesn't exceed the width of its container */
+            height: auto; /* Maintain the aspect ratio of the gif */
+            display: block; /* Center the gif */
+            margin: 20px auto; /* Add some margin for spacing */
+        }
+        #buttons {
+            margin-top: 20px; /* Add margin above the buttons */
+        }
+        .button {
+            padding: 10px 20px; /* Add padding to the buttons */
+            margin: 0 10px; /* Add margin between the buttons */
+            text-decoration: none; /* Remove underlines from links */
+            color: #fff; /* Set text color to white */
+            background-color: #333; /* Set button background color to dark gray (#333) */
+            border: none; /* Remove button border */
+            border-radius: 5px; /* Add a slight border-radius for rounded corners */
+        }
+    </style>
+</head>
+<body>
+    <h1>Header Text</h1> <!-- Header text -->
+    
+    <img id="gif" src="https://example.com/path/to/your/gif.gif" alt="Animated Gif"> <!-- Gif image -->
 
+    <div id="buttons">
+        <a href="another-page.html" class="button">Yes</a> <!-- Button to navigate to another page -->
+        <button class="button" onclick="alert('No button clicked!')">No</button> <!-- Button with onclick event (displays an alert in this case) -->
+    </div>
+</body>
+</html>
